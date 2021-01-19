@@ -1,0 +1,269 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				"show-scrollbar": "false"
+			}
+		},
+		{
+			"path": "pages/myset/personal_information",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+	
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				"show-scrollbar": "false"
+			}
+		},
+		{
+			"path": "pages/component/info/info",
+			"style": {
+				"navigationBarTitleText": "题库练习"
+			}
+		},
+		{
+			"path": "pages/component/courseExam/courseExam",
+			"style": {
+				"navigationBarTitleText": "课程考试"
+			}
+		},
+		{
+			"path": "pages/component/faceAnswer/faceAnswer",
+			"style": {
+				"navigationBarTitleText": "面授答疑"
+			}
+		},
+		{
+			"path": "pages/component/writeInformation/writeInformation",
+			"style": {
+				"navigationBarTitleText": "填写信息"
+			}
+		},
+		{
+			"path": "pages/component/answerQuestion/answerQuestion",
+			"style": {
+				"navigationBarTitleText": "答题"
+			}
+		},
+		{
+			"path": "pages/courseModule/courseDiscussion",
+			"style": {
+				"navigationBarTitleText": "课程讨论",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				"show-scrollbar": "false"
+			}
+		},
+		{
+			"path": "pages/courseModule/sendProblem",
+			"style": {
+				"navigationBarTitleText": "发送问题",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"scrollIndicator": "none",
+				"show-scrollbar": "false"
+			}
+		},
+		{
+			"path": "pages/courseModule/coursePlay",
+			"style": {
+				"navigationBarTitleText": "课程点播"
+			}
+		},
+		{
+			"path": "pages/courseModule/enterCourse",
+			"style": {
+				"navigationBarTitleText": "进入课程"
+			}
+		},
+		{
+			"path": "pages/courseModule/detailAnswer",
+			"style": {
+				"navigationBarTitleText": "课程详细回答"
+			}
+		},
+		{
+			"path": "pages/component/scoreInquiry",
+			"style": {
+				"navigationBarTitleText": "成绩查询"
+			}
+		},
+		{
+			"path": "pages/component/customerServe",
+			"style": {
+				"navigationBarTitleText": "导学老师"
+			}
+		},
+		{
+			"path": "pages/myset/change_course",
+			"style": {
+				"navigationBarTitleText": "选择课程"
+			}
+		},
+		{
+			"path": "pages/myset/backlog",
+			"style": {
+				"navigationStyle": "custom" //自定义头部导航栏
+			}
+		},
+		{
+			"path": "pages/myset/myProfile/index",  // 我的资料页面
+			"style": {
+				"navigationStyle": "custom" //自定义头部导航栏
+			}
+		},
+		{
+			"path": "pages/myset/write_information/write_information", // 我的资料页面
+			"style": {
+				"navigationStyle": "custom" //自定义头部导航栏
+			}
+		},
+		{
+			"path": "pages/myset/my_message/index", // 我的消息页面
+			"style": {
+				"navigationStyle": "custom", //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/myset/my_set/index", // 我的设置页面    
+			"style": {
+				"navigationStyle": "custom", //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/phone_number/index", // 修改手机号码页面    
+			"style": {
+				"navigationStyle": "custom", //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/password/index", // 修改密码页面    
+			"style": {
+				"navigationStyle": "custom", //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/apply/index", //  报名页面
+			"style": {
+				"navigationBarTitleText": "报名",
+				// "navigationStyle": "报名"  //自定义头部导航栏
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/courseModule/coursework",
+			"style": {
+				"navigationBarTitleText": "课程作业",
+				// "navigationStyle": "报名"  //自定义头部导航栏
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/courseModule/course_material", 
+			"style": {
+				"navigationBarTitleText": "课程资料",
+				// "navigationStyle": "报名"  //自定义头部导航栏
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/study/study", //  报名页面
+			"style": {
+				"navigationBarTitleText": "课程"
+			}
+		}, {
+			"path": "pages/component/info/info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/component/courseExam/courseExam",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/component/writeInformation/writeInformation"
+		}, {
+			"path": "pages/myset/write_information/write_information",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/component/answerQuestion/answerQuestion",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "pink",
+		"app-plus": {
+			"background": "#efeff4"
+		},
+		"usingComponents": {
+			"van-circle": "/wxcomponents/vant/circle/index"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/shouye.png",
+				"selectedIconPath": "static/tabbar/shouye_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/study/study",
+				"iconPath": "static/tabbar/xuexi.png",
+				"selectedIconPath": "static/tabbar/xuexi_active.png",
+				"text": "学习"
+			}, {
+				"pagePath": "pages/myset/personal_information",
+				"iconPath": "static/tabbar/wo.png",
+				"selectedIconPath": "static/tabbar/wo_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
